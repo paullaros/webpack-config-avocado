@@ -1,3 +1,3 @@
-const config = require('../..') // require('webpack-config-elmango')
+const config = require('../..') // require('webpack-config-avocado')
 
 module.exports = config
