@@ -1,6 +1,6 @@
 {
   "name": "webpack-config-avocado",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An opinionated webpack config for El Mango projects",
   "main": "webpack.config.js",
   "author": "Paul Laros <paul@laros.io>",
@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/paullaros/webpack-config-avocado#readme",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "9.1.0",
     "babel-core": "6.26.3",
     "babel-eslint": "8.2.6",
@@ -44,7 +44,7 @@
     "webpack-cli": "3.1.0",
     "webpack-serve": "2.0.2"
   },
-  "dependencies": {},
+  "devDependencies": {},
   "peerDependencies": {
     "webpack": "^4.0.0",
     "webpack-cli": "^3.0.0"
