@@ -5,7 +5,6 @@ An opinionated webpack config for El Mango projects
 ## Features
 
 - webpack 4
-- webpack-serve
 - es8: by babel, presets & plugins
 - sass support: with autoprefixer
 - copy tasks for fonts & images
@@ -16,7 +15,7 @@ An opinionated webpack config for El Mango projects
 ## Basic Setup
 
 ```shell
-npm install --save-dev webpack
+npm install --save-dev webpack webpack-cli
 npm install --save-dev webpack-config-avocado
 ```
 

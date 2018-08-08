@@ -1,7 +1,7 @@
 {
-  "name": "Demo",
+  "name": "webpack-config-avocado-example-advanced",
   "version": "0.0.1",
-  "description": "Demo",
+  "description": "Demo purposes only",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack -p --config webpack.config.js --progress --colors",
     "start": "webpack --config webpack.config.js --watch --progress --colors"
@@ -11,7 +11,8 @@
   "devDependencies": {
     "cross-env": "5.2.0",
     "webpack": "4.16.5",
-    "webpack-merge": "^4.1.4"
+    "webpack-cli": "3.1.0",
+    "webpack-merge": "4.1.4"
   },
   "dependencies": {}
 }
