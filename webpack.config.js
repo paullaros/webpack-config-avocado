@@ -41,7 +41,9 @@ module.exports = {
     new CopyWebpackPlugin([
       {from: 'src/fonts', to: 'fonts'},
       {from: 'src/img', to: 'img'}
-    ])
+    ]),
+    // Speed up webpack build
+    new HardSourceWebpackPlugin()
   ],
   module: {
     rules: [
