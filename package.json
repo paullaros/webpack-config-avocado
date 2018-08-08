@@ -1,6 +1,6 @@
 {
   "name": "webpack-config-avocado",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "An opinionated webpack config for El Mango projects",
   "main": "webpack.config.js",
   "author": "Paul Laros <paul@laros.io>",
