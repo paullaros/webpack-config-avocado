@@ -17,12 +17,12 @@ An opinionated webpack config for El Mango projects
 
 ```shell
 npm install --save-dev webpack
-npm install --save-dev webpack-config-el-mango
+npm install --save-dev webpack-config-avocado
 ```
 
 **webpack.config.js**
 ```js
-module.exports = require('webpack-config-el-mango')
+module.exports = require('webpack-config-avocado')
 ```
 
 **src/js/app.js**
