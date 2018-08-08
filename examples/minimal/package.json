@@ -1,0 +1,16 @@
+{
+  "name": "Demo",
+  "version": "0.0.1",
+  "description": "Demo",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack -p --config webpack.config.js --progress --colors",
+    "start": "webpack --config webpack.config.js --watch --progress --colors"
+  },
+  "author": "Paul Laros <paul@laros.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "5.2.0",
+    "webpack": "4.16.5"
+  },
+  "dependencies": {}
+}

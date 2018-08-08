@@ -1,0 +1,51 @@
+{
+  "name": "webpack-config-avocado",
+  "version": "1.0.0",
+  "description": "An opinionated webpack config for El Mango projects",
+  "main": "webpack.config.js",
+  "author": "Paul Laros <paul@laros.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paullaros/webpack-config-avocado.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paullaros/webpack-config-avocado/issues"
+  },
+  "homepage": "https://github.com/paullaros/webpack-config-avocado#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "9.1.0",
+    "babel-core": "6.26.3",
+    "babel-eslint": "8.2.6",
+    "babel-loader": "7.1.5",
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "babel-preset-env": "1.7.0",
+    "babel-register": "6.26.0",
+    "copy-webpack-plugin": "4.5.2",
+    "cross-env": "5.2.0",
+    "css-loader": "1.0.0",
+    "eslint": "5.3.0",
+    "eslint-loader": "2.1.0",
+    "eslint-plugin-flowtype": "2.50.0",
+    "eslint-plugin-import": "2.13.0",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "file-loader": "1.1.11",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "4.9.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "postcss-loader": "2.1.6",
+    "resolve-url-loader": "2.3.0",
+    "sass-loader": "7.1.0",
+    "script-loader": "0.7.2",
+    "style-loader": "0.22.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "url-loader": "1.0.1",
+    "webpack": "4.16.5",
+    "webpack-cli": "3.1.0",
+    "webpack-serve": "2.0.2"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  }
+}
