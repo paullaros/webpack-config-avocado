@@ -52,7 +52,7 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /(node_modules)/,
-        loader: ['babel-loader']
+        loader: ['babel-loader?cacheDirectory=true']
       },
       // Css-loader & sass-loader
       {
