@@ -11,6 +11,7 @@ An opinionated webpack config for El Mango projects
 - eslint: with babel-eslint
 - production & development (watch) tasks
 - uglifyjs
+- autoprefixer
 
 ## Basic Setup
 

@@ -1,6 +1,6 @@
 {
   "name": "webpack-config-avocado",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "An opinionated webpack config for El Mango projects",
   "main": "webpack.config.js",
   "author": "Paul Laros <paul@laros.io>",
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/paullaros/webpack-config-avocado#readme",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "9.1.0",
+    "autoprefixer": "^9.1.0",
     "babel-core": "6.26.3",
     "babel-eslint": "8.2.6",
     "babel-loader": "7.1.5",
@@ -33,7 +33,7 @@
     "mini-css-extract-plugin": "0.4.1",
     "node-sass": "4.9.2",
     "optimize-css-assets-webpack-plugin": "5.0.0",
-    "postcss-loader": "2.1.6",
+    "postcss-loader": "^2.1.6",
     "resolve-url-loader": "2.3.0",
     "sass-loader": "7.1.0",
     "script-loader": "0.7.2",
